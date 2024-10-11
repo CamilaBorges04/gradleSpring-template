@@ -1,0 +1,9 @@
+@url = https://8080-camilaborge-gradlesprin-i43x2a5fwzk.ws-us116.gitpod.io
+
+POST {{url}}/plataformas
+Content-Type: application/json
+ 
+{
+    "nome": "mobile"
+}
+ 

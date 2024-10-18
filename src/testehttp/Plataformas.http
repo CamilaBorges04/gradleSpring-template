@@ -1,4 +1,8 @@
-@url = https://8080-camilaborge-gradlesprin-i43x2a5fwzk.ws-us116.gitpod.io
+@url = https://8080-camilaborge-gradlesprin-txlxtfr25mz.ws-us116.gitpod.io
+
+GET {{url}}/plataformas
+
+###
 
 POST {{url}}/plataformas
 Content-Type: application/json
@@ -7,3 +11,5 @@ Content-Type: application/json
     "nome": "mobile"
 }
  
+###
+GET {{url}}/plataformas/8

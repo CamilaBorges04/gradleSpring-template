@@ -1,4 +1,4 @@
-@url = https://8080-camilaborge-gradlesprin-txlxtfr25mz.ws-us116.gitpod.io
+@url = https://8080-camilaborge-gradlesprin-z5raqjmysty.ws-us116.gitpod.io
 
 GET {{url}}/plataformas
 

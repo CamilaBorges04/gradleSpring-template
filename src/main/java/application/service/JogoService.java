@@ -24,4 +24,8 @@ public class JogoService {
     public JogoDTO add(JogoDTO jogo) {
         return new JogoDTO(jogoRepo.save(new Jogo(jogo)));
     }
+
+    public void deleteById(long id) {
+        jogoRepo.deleteById(id);
+    }
 }

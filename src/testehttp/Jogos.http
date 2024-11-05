@@ -1,4 +1,4 @@
-@url = https://8080-camilaborge-gradlesprin-z5raqjmysty.ws-us116.gitpod.io
+@url = https://8080-camilaborge-gradlesprin-0osxgbr5lme.ws-us116.gitpod.io
 
 GET {{url}}/jogos
 
@@ -9,7 +9,21 @@ Content-Type: application/json
 {
     "titulo": "Vampire Survivors",
     "plataformas": [
-        {"id": 2},
-        {"id": 1}
+        {"id": 1},
+        {"id": 2}
+    ]
+}
+
+###
+DELETE {{url}}/jogos/2
+
+###
+PUT {{url}}/jogos/2
+Content-Type: application/json
+
+{
+    "titulo": "Vampire Survivors - Alterado",
+    "plataformas": [
+        {"id": 2}
     ]
 }
